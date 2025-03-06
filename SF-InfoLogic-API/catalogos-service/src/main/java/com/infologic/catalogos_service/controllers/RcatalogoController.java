@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 //@CrossOrigin(origins = "*", allowedHeaders = "*")
-@RequestMapping(path = "/catalogos")
+@RequestMapping(path = "/rcatalogos")
 public class RcatalogoController {
 
     private final RcatalogoService rcatalogoService;
