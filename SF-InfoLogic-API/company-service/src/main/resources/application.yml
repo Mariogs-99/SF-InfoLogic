@@ -1,6 +1,6 @@
 spring:
   application:
-    name: producto-service
+    name: company-service
   datasource:
     url: jdbc:mysql://localhost:3306/cnr?useSSL=false&allowPublicKeyRetrieval=true
     username: root
@@ -17,21 +17,10 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect
 
 server:
-  port: 8083
+  port: 8084
   servlet:
     context-path: /facElec
 
 logging:
   level:
     org.springframework.security: DEBUG
-
-cnrapps:
-  SISID: 85
-
-configuracion:
-  password-user-new: root123
-
-jwt:
-  secret: e57040150fe97595e2f38fcca490cbd4f4cac04da085ba41b0d2d0bc554cc347
-
-AMBIENTE_MH: 00
